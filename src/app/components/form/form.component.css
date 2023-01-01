@@ -1,0 +1,93 @@
+*{
+
+  font-family: play;
+}
+
+
+.box{
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:400px;
+  background: rgb(0,0,0,0.4);
+  padding:40px;
+  box-sizing: border-box;
+  box-shadow:0 15px 25px rgba(0,0,0,1)
+}
+
+
+.box h2{
+
+  margin:0 0 30px;
+  padding:0;
+
+  color:#fff;
+
+  text-align: center;
+}
+.box .inputbox{
+
+  position:relative;
+
+
+}
+
+
+.box .inputbox input{
+
+  width:100%;
+  padding:10px 0;
+  font-size:16px;
+  color:#000;
+  font-weight:bold;
+  letter-spacing:1px;
+  margin-bottom:30px;
+  border:none;
+  border-bottom:1px solid #fff;
+  outline: none;
+  background: transparent;
+
+}
+
+
+.box .inputbox label{
+  position:absolute;
+  top:0;
+  left:0;
+  padding:10px 0;
+  font-size:16px;
+  color:#fff;
+  letter-spacing: 1px;
+  pointer-events: none;
+  transition:0.5s;
+}
+
+.box .inputbox input:focus~label,.box .inputbox input:valid~label{
+
+
+  top:-25px;
+  left:0;
+  font-weight:bold;
+  font-size:14px;
+  color:rgb(2,77,18);
+}
+
+
+.box input[type="submit"]{
+
+  background:transparent;
+  color:rgb(145,2,2);
+  font-weight: bold;
+  padding:10px 20px;
+  cursor:pointer;
+  border-radius:7px;
+  margin-left: 100px;
+  border:3px solid rgb(15,71,1) ;
+box-shadow:10px 15px 15px rgba(0,0,0,1);
+}
+
+h1{
+  text-align: center;
+}
