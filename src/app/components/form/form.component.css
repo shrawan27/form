@@ -4,6 +4,20 @@
 }
 
 
+img {
+  height: auto;
+  max-width: 100%;
+}
+.container{
+
+  background: url("../../../assets/pexels-erick-marynowski-12604816.jpg") no-repeat;
+  
+  
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
 .box{
 
   position:absolute;
@@ -14,7 +28,9 @@
   background: rgb(0,0,0,0.4);
   padding:40px;
   box-sizing: border-box;
-  box-shadow:0 15px 25px rgba(0,0,0,1)
+  box-shadow:0 15px 25px rgba(0,0,0,1);
+
+
 }
 
 
