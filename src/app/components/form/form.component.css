@@ -15,12 +15,12 @@ img {
   
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 800px;
 }
 
 .box{
 
-  position:absolute;
+  position: absolute;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
@@ -75,7 +75,7 @@ img {
   padding:10px 0;
   font-size:16px;
   color:#fff;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   pointer-events: none;
   transition:0.5s;
 }
@@ -83,27 +83,36 @@ img {
 .box .inputbox input:focus~label,.box .inputbox input:valid~label{
 
 
-  top:-25px;
+  top:-35px;
   left:0;
   font-weight:bold;
   font-size:14px;
-  color:rgb(2,77,18);
+  color:rgb(222, 98, 26);
+  letter-spacing: 1px;
 }
 
 
 .box input[type="submit"]{
 
-  background:transparent;
-  color:rgb(145,2,2);
+  background:rgb(225, 225, 49);
+  color:rgb(15, 15, 15);
   font-weight: bold;
   padding:10px 20px;
   cursor:pointer;
   border-radius:7px;
   margin-left: 100px;
-  border:3px solid rgb(15,71,1) ;
+  border:3px solid rgb(6, 6, 6) ;
 box-shadow:10px 15px 15px rgba(0,0,0,1);
-}
 
+}
+.box input[type="submit"]:hover{
+
+  color:green;
+  font-size:20px;
+  position:relative;
+  transform: translateZ(-20px);
+  transition: 0.5s;
+}
 h1{
   text-align: center;
 }
